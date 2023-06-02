@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./calendar.jfif');
+    filter: opacity(%0%)
+}
+
+
+.main {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 50%;
+margin: auto 0px;
+text-align: center;
+}
+
+.result {
+    font-size: 30px;
+    line-height: 30px;
+    height: 30px;
+}
+
+#input {
+    text-align: center;
+    display: block;
+    margin: 30px auto 30px auto;
+
+}
+
+button {
+display: inline;
+margin: 0px auto 0px auto;
+color: crimson;
+background-color: crimson;
+color: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
